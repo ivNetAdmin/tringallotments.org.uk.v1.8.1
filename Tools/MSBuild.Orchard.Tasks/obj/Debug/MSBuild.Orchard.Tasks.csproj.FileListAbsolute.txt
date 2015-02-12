@@ -1,0 +1,5 @@
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.dll
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.pdb
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.csprojResolveAssemblyReference.cache
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.dll
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.pdb

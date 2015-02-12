@@ -1,0 +1,6 @@
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard\bin\Debug\Orchard.exe.config
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard\bin\Debug\Orchard.exe
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard\bin\Debug\Orchard.pdb
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard\obj\Debug\Orchard.csprojResolveAssemblyReference.cache
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard\obj\Debug\Orchard.exe
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard\obj\Debug\Orchard.pdb
