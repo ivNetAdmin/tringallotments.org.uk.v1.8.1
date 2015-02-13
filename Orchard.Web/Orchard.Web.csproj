@@ -67,6 +67,9 @@
       <HintPath>..\..\lib\nuget\NuGet.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Recaptcha">
+      <HintPath>Modules\ivNet.Mail\bin\Recaptcha.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.ComponentModel.DataAnnotations">

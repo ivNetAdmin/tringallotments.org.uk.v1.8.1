@@ -4,13 +4,13 @@
     <ExtensionId>ivNet.Mail</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/ivNet.Mail/ivNet.Mail.csproj</VirtualPath>
-    <Hash>b4174360ddcaa833</Hash>
+    <Hash>6ad8423664540816</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>ivNet.TringAllotment</ExtensionId>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <VirtualPath>~/Themes/ivNet.TringAllotment/bin/ivNet.TringAllotment.dll</VirtualPath>
-    <Hash>491454781884e436</Hash>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Themes/ivNet.TringAllotment/ivNet.TringAllotment.csproj</VirtualPath>
+    <Hash>6c5bdefad1a393f6</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Lucene</ExtensionId>

@@ -95,7 +95,7 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Content-url-contact.cshtml" />
+    <Content Include="Views\Example-Theme-Content-url-contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Orchard.Email\Orchard.Email.csproj">

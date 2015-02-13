@@ -67,6 +67,9 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Styles\Theme.css">
+      <DependentUpon>Theme.less</DependentUpon>
+    </Content>
     <Content Include="Styles\Theme.min.css" />
     <Content Include="Web.config" />
     <Content Include="Scripts\Web.config" />
@@ -89,12 +92,20 @@
   <ItemGroup>
     <Content Include="Styles\Theme.less" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Views\Content-url-contact-failed.cshtml" />
+    <Content Include="Views\Content-url-contact.cshtml" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Views\ThemeResources.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ResourceManifest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\Theme.css.map">
+      <DependentUpon>Theme.css</DependentUpon>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,7 +1,9 @@
 ﻿@using Recaptcha;
 
 @using (Html.BeginFormAntiForgeryPost(Url.Action("Send", "Mail", new { area = "ivNet.Mail" }), FormMethod.Post, new { @class = "form-horizontal", id = "contactForm" }))
-{    
+{
+
+    <legend>Contact</legend>
     <div class="control-group">
         <div class="controls">
             <input type="text" class="form-control"
@@ -27,11 +29,9 @@
         </div>
     </div>
 
-    <div class="control-group">
-        <div class="controls">
-            @Html.Raw(Html.GenerateCaptcha("captcha", "red"))
-            @Html.ValidationMessage("captcha")
-        </div>
+    <div class="editor-field">
+        @Html.Raw(Html.GenerateCaptcha("captcha", "clean"))
+        @Html.ValidationMessage("captcha")
     </div>
 
     <div id="success"> </div>

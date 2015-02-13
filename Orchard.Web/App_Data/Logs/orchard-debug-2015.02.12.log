@@ -67,3 +67,319 @@ System.Reflection.TargetInvocationException: Exception has been thrown by the ta
    at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
    at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
    at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-02-12 16:54:47,858 [6] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.InvalidOperationException: The view 'contact' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.TringAllotment/Views/ivNet.Mail/Mail/contact.cshtml
+~/Themes/ivNet.TringAllotment/Views/contact.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Mail/Mail/contact.cshtml
+~/Themes/PJS.Bootstrap/Views/contact.cshtml
+~/Core/ivNet.Mail/Views/Mail/contact.cshtml
+~/Modules/ivNet.Mail/Views/Mail/contact.cshtml
+~/Themes/ivNet.Mail/Views/Mail/contact.cshtml
+~/Core/Reports/Views/contact.cshtml
+~/Core/Dashboard/Views/contact.cshtml
+~/Modules/TinyMce/Views/contact.cshtml
+~/Modules/Orchard.Taxonomies/Views/contact.cshtml
+~/Modules/Orchard.Tags/Views/contact.cshtml
+~/Modules/Orchard.Scripting/Views/contact.cshtml
+~/Modules/Orchard.Recipes/Views/contact.cshtml
+~/Modules/Orchard.Projections/Views/contact.cshtml
+~/Modules/Orchard.Pages/Views/contact.cshtml
+~/Modules/Orchard.Packaging/Views/contact.cshtml
+~/Modules/Orchard.Modules/Views/contact.cshtml
+~/Core/Containers/Views/contact.cshtml
+~/Modules/Orchard.Fields/Views/contact.cshtml
+~/Modules/Orchard.ContentTypes/Views/contact.cshtml
+~/Modules/Orchard.Roles/Views/contact.cshtml
+~/Modules/Orchard.Users/Views/contact.cshtml
+~/Modules/Orchard.Workflows/Views/contact.cshtml
+~/Modules/Orchard.Comments/Views/contact.cshtml
+~/Modules/Orchard.CodeGeneration/Views/contact.cshtml
+~/Modules/Orchard.ContentPicker/Views/contact.cshtml
+~/Core/Contents/Views/contact.cshtml
+~/Modules/Orchard.Blogs/Views/contact.cshtml
+~/Core/Shapes/Views/contact.cshtml
+~/Core/Navigation/Views/contact.cshtml
+~/Core/Feeds/Views/contact.cshtml
+~/Modules/Orchard.Widgets/Views/contact.cshtml
+~/Modules/Orchard.Themes/Views/contact.cshtml
+~/Modules/Orchard.PublishLater/Views/contact.cshtml
+~/Modules/Orchard.MediaLibrary/Views/contact.cshtml
+~/Core/Title/Views/contact.cshtml
+~/Modules/Orchard.MediaProcessing/Views/contact.cshtml
+~/Modules/Orchard.Forms/Views/contact.cshtml
+~/Modules/Orchard.OutputCache/Views/contact.cshtml
+~/Modules/Orchard.Autoroute/Views/contact.cshtml
+~/Core/Scheduling/Views/contact.cshtml
+~/Modules/Orchard.Tokens/Views/contact.cshtml
+~/Modules/Orchard.jQuery/Views/contact.cshtml
+~/Modules/Orchard.Alias/Views/contact.cshtml
+~/Core/Common/Views/contact.cshtml
+~/Core/Settings/Views/contact.cshtml
+~/Modules/ivNet.Mail/Views/contact.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-02-12 16:56:35,917 [13] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.InvalidOperationException: The view 'contact' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.TringAllotment/Views/ivNet.Mail/Mail/contact.cshtml
+~/Themes/ivNet.TringAllotment/Views/contact.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Mail/Mail/contact.cshtml
+~/Themes/PJS.Bootstrap/Views/contact.cshtml
+~/Core/ivNet.Mail/Views/Mail/contact.cshtml
+~/Modules/ivNet.Mail/Views/Mail/contact.cshtml
+~/Themes/ivNet.Mail/Views/Mail/contact.cshtml
+~/Core/Reports/Views/contact.cshtml
+~/Core/Dashboard/Views/contact.cshtml
+~/Modules/TinyMce/Views/contact.cshtml
+~/Modules/Orchard.Taxonomies/Views/contact.cshtml
+~/Modules/Orchard.Tags/Views/contact.cshtml
+~/Modules/Orchard.Scripting/Views/contact.cshtml
+~/Modules/Orchard.Recipes/Views/contact.cshtml
+~/Modules/Orchard.Projections/Views/contact.cshtml
+~/Modules/Orchard.Pages/Views/contact.cshtml
+~/Modules/Orchard.Packaging/Views/contact.cshtml
+~/Modules/Orchard.Modules/Views/contact.cshtml
+~/Core/Containers/Views/contact.cshtml
+~/Modules/Orchard.Fields/Views/contact.cshtml
+~/Modules/Orchard.ContentTypes/Views/contact.cshtml
+~/Modules/Orchard.Roles/Views/contact.cshtml
+~/Modules/Orchard.Users/Views/contact.cshtml
+~/Modules/Orchard.Workflows/Views/contact.cshtml
+~/Modules/Orchard.Comments/Views/contact.cshtml
+~/Modules/Orchard.CodeGeneration/Views/contact.cshtml
+~/Modules/Orchard.ContentPicker/Views/contact.cshtml
+~/Core/Contents/Views/contact.cshtml
+~/Modules/Orchard.Blogs/Views/contact.cshtml
+~/Core/Shapes/Views/contact.cshtml
+~/Core/Navigation/Views/contact.cshtml
+~/Core/Feeds/Views/contact.cshtml
+~/Modules/Orchard.Widgets/Views/contact.cshtml
+~/Modules/Orchard.Themes/Views/contact.cshtml
+~/Modules/Orchard.PublishLater/Views/contact.cshtml
+~/Modules/Orchard.MediaLibrary/Views/contact.cshtml
+~/Core/Title/Views/contact.cshtml
+~/Modules/Orchard.MediaProcessing/Views/contact.cshtml
+~/Modules/Orchard.Forms/Views/contact.cshtml
+~/Modules/Orchard.OutputCache/Views/contact.cshtml
+~/Modules/Orchard.Autoroute/Views/contact.cshtml
+~/Core/Scheduling/Views/contact.cshtml
+~/Modules/Orchard.Tokens/Views/contact.cshtml
+~/Modules/Orchard.jQuery/Views/contact.cshtml
+~/Modules/Orchard.Alias/Views/contact.cshtml
+~/Core/Common/Views/contact.cshtml
+~/Core/Settings/Views/contact.cshtml
+~/Modules/ivNet.Mail/Views/contact.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-02-12 17:04:23,666 [41] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.InvalidOperationException: The view 'contact' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.TringAllotment/Views/ivNet.Mail/Mail/contact.cshtml
+~/Themes/ivNet.TringAllotment/Views/contact.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Mail/Mail/contact.cshtml
+~/Themes/PJS.Bootstrap/Views/contact.cshtml
+~/Core/ivNet.Mail/Views/Mail/contact.cshtml
+~/Modules/ivNet.Mail/Views/Mail/contact.cshtml
+~/Themes/ivNet.Mail/Views/Mail/contact.cshtml
+~/Core/Reports/Views/contact.cshtml
+~/Core/Dashboard/Views/contact.cshtml
+~/Modules/TinyMce/Views/contact.cshtml
+~/Modules/Orchard.Taxonomies/Views/contact.cshtml
+~/Modules/Orchard.Tags/Views/contact.cshtml
+~/Modules/Orchard.Scripting/Views/contact.cshtml
+~/Modules/Orchard.Recipes/Views/contact.cshtml
+~/Modules/Orchard.Projections/Views/contact.cshtml
+~/Modules/Orchard.Pages/Views/contact.cshtml
+~/Modules/Orchard.Packaging/Views/contact.cshtml
+~/Modules/Orchard.Modules/Views/contact.cshtml
+~/Core/Containers/Views/contact.cshtml
+~/Modules/Orchard.Fields/Views/contact.cshtml
+~/Modules/Orchard.DesignerTools/Views/contact.cshtml
+~/Modules/Orchard.ContentTypes/Views/contact.cshtml
+~/Modules/Orchard.Roles/Views/contact.cshtml
+~/Modules/Orchard.Users/Views/contact.cshtml
+~/Modules/Orchard.Workflows/Views/contact.cshtml
+~/Modules/Orchard.Comments/Views/contact.cshtml
+~/Modules/Orchard.CodeGeneration/Views/contact.cshtml
+~/Modules/Orchard.ContentPicker/Views/contact.cshtml
+~/Core/Contents/Views/contact.cshtml
+~/Modules/Orchard.Blogs/Views/contact.cshtml
+~/Core/Shapes/Views/contact.cshtml
+~/Core/Navigation/Views/contact.cshtml
+~/Core/Feeds/Views/contact.cshtml
+~/Modules/Orchard.Widgets/Views/contact.cshtml
+~/Modules/Orchard.Themes/Views/contact.cshtml
+~/Modules/Orchard.PublishLater/Views/contact.cshtml
+~/Modules/Orchard.MediaLibrary/Views/contact.cshtml
+~/Core/Title/Views/contact.cshtml
+~/Modules/Orchard.MediaProcessing/Views/contact.cshtml
+~/Modules/Orchard.Forms/Views/contact.cshtml
+~/Modules/Orchard.OutputCache/Views/contact.cshtml
+~/Modules/Orchard.Autoroute/Views/contact.cshtml
+~/Core/Scheduling/Views/contact.cshtml
+~/Modules/Orchard.Tokens/Views/contact.cshtml
+~/Modules/Orchard.jQuery/Views/contact.cshtml
+~/Modules/Orchard.Alias/Views/contact.cshtml
+~/Core/Common/Views/contact.cshtml
+~/Core/Settings/Views/contact.cshtml
+~/Modules/ivNet.Mail/Views/contact.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-02-12 17:13:47,217 [8] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.Web.HttpCompileException (0x80004005): f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\Themes\ivNet.TringAllotment\Views\Content-url-contact.cshtml(1): error CS0246: The type or namespace name 'Recaptcha' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.Render(ShapeDescriptor shapeDescriptor, DisplayContext displayContext, HarvestShapeInfo harvestShapeInfo, HarvestShapeHit harvestShapeHit) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 151
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.<>c__DisplayClass26.<>c__DisplayClass28.<Discover>b__15(DisplayContext displayContext) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 133
+   at Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:line 56
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 185
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 94
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 86
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 44
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 29
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at ASP._Page_Core_Contents_Views_Item_Display_cshtml.Execute() in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\Core\Contents\Views\Item\Display.cshtml:line 6
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.<>c__DisplayClass7.<FindView>b__5(ViewContext viewContext, TextWriter writer, IViewDataContainer viewDataContainer) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 59
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.LayoutView.Render(ViewContext viewContext, TextWriter writer) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 90
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-02-12 17:15:25,489 [6] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.Web.HttpCompileException (0x80004005): f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\Themes\ivNet.TringAllotment\Views\Content-url-contact.cshtml(1): error CS0246: The type or namespace name 'Recaptcha' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.Render(ShapeDescriptor shapeDescriptor, DisplayContext displayContext, HarvestShapeInfo harvestShapeInfo, HarvestShapeHit harvestShapeHit) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 151
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.<>c__DisplayClass26.<>c__DisplayClass28.<Discover>b__15(DisplayContext displayContext) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 133
+   at Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:line 56
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 185
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 94
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 86
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 44
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 29
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at ASP._Page_Core_Contents_Views_Item_Display_cshtml.Execute() in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\Core\Contents\Views\Item\Display.cshtml:line 6
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.<>c__DisplayClass7.<FindView>b__5(ViewContext viewContext, TextWriter writer, IViewDataContainer viewDataContainer) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 59
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.LayoutView.Render(ViewContext viewContext, TextWriter writer) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 90
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-02-12 17:16:35,397 [8] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.Web.HttpCompileException (0x80004005): f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\Themes\ivNet.TringAllotment\Views\Content-url-contact.cshtml(1): error CS0246: The type or namespace name 'Recaptcha' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.Render(ShapeDescriptor shapeDescriptor, DisplayContext displayContext, HarvestShapeInfo harvestShapeInfo, HarvestShapeHit harvestShapeHit) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 151
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.<>c__DisplayClass26.<>c__DisplayClass28.<Discover>b__15(DisplayContext displayContext) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 133
+   at Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:line 56
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 185
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 94
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 86
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 44
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 29
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at ASP._Page_Core_Contents_Views_Item_Display_cshtml.Execute() in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\Core\Contents\Views\Item\Display.cshtml:line 6
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.<>c__DisplayClass7.<FindView>b__5(ViewContext viewContext, TextWriter writer, IViewDataContainer viewDataContainer) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 59
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.LayoutView.Render(ViewContext viewContext, TextWriter writer) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 90
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)

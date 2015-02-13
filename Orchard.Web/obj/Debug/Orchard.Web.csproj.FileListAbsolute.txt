@@ -58,3 +58,5 @@ F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\bin\System.Net.Http.For
 F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\obj\Debug\Orchard.Web.csprojResolveAssemblyReference.cache
 F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\obj\Debug\Orchard.Web.dll
 F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\obj\Debug\Orchard.Web.pdb
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\bin\Recaptcha.dll
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Web\bin\Recaptcha.pdb
