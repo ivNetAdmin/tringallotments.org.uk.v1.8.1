@@ -1,0 +1,11 @@
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard.Tests\bin\Release\Orchard.Tests.dll
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard.Tests\bin\Release\Orchard.Tests.pdb
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard.Tests\bin\Release\Moq.dll
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard.Tests\bin\Release\nunit.framework.dll
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard.Tests\bin\Release\Orchard.exe
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard.Tests\bin\Release\Orchard.pdb
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard.Tests\bin\Release\Moq.pdb
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard.Tests\bin\Release\Moq.xml
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard.Tests\obj\Release\Orchard.Tests.csprojResolveAssemblyReference.cache
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard.Tests\obj\Release\Orchard.Tests.dll
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Tools\Orchard.Tests\obj\Release\Orchard.Tests.pdb

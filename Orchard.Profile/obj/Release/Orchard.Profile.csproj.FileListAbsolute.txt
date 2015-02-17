@@ -1,0 +1,7 @@
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Profile\bin\Release\Orchard.Profile.dll
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Profile\bin\Release\Orchard.Profile.pdb
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Profile\bin\Release\nunit.framework.dll
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Profile\bin\Release\TechTalk.SpecFlow.dll
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Profile\obj\Release\Orchard.Profile.csprojResolveAssemblyReference.cache
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Profile\obj\Release\Orchard.Profile.dll
+F:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard.Profile\obj\Release\Orchard.Profile.pdb
