@@ -1,0 +1,26 @@
+2015-02-18 19:00:26,515 [10] NHibernate.Transaction.AdoTransaction - (null) - Begin transaction failed
+ (null)
+System.Data.SqlServerCe.SqlCeException (0x80004005): There is a file sharing violation. A different process might be using the file. [ D:\websites\trin63379\www\App_Data\Sites\Default\Orchard.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Connection\DriverConnectionProvider.cs:line 46
+   at NHibernate.AdoNet.ConnectionManager.GetConnection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\AdoNet\ConnectionManager.cs:line 196
+   at NHibernate.Impl.SessionImpl.get_Connection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Impl\SessionImpl.cs:line 1634
+   at NHibernate.Transaction.AdoTransaction.Begin(IsolationLevel isolationLevel) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Transaction\AdoTransaction.cs:line 137
+2015-02-18 19:00:26,781 [10] Orchard.Tasks.BackgroundService - (null) - Error while processing background task
+ (null)
+NHibernate.TransactionException: Begin failed with SQL exception ---> System.Data.SqlServerCe.SqlCeException: There is a file sharing violation. A different process might be using the file. [ D:\websites\trin63379\www\App_Data\Sites\Default\Orchard.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Connection\DriverConnectionProvider.cs:line 46
+   at NHibernate.AdoNet.ConnectionManager.GetConnection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\AdoNet\ConnectionManager.cs:line 196
+   at NHibernate.Impl.SessionImpl.get_Connection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Impl\SessionImpl.cs:line 1634
+   at NHibernate.Transaction.AdoTransaction.Begin(IsolationLevel isolationLevel) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Transaction\AdoTransaction.cs:line 137
+   --- End of inner exception stack trace ---
+   at NHibernate.Transaction.AdoTransaction.Begin(IsolationLevel isolationLevel) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Transaction\AdoTransaction.cs:line 148
+   at NHibernate.Impl.SessionImpl.BeginTransaction(IsolationLevel isolationLevel) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Impl\SessionImpl.cs:line 1451
+   at Orchard.Data.SessionLocator.RequireNew(IsolationLevel level) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Data\SessionLocator.cs:line 73
+   at Orchard.Data.SessionLocator.RequireNew() in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Data\SessionLocator.cs:line 51
+   at Orchard.Tasks.BackgroundService.Sweep() in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Tasks\BackgroundService.cs:line 29

@@ -1,4 +1,10 @@
 ﻿@model Orchard.AntiSpam.ViewModels.ReCaptchaPartEditViewModel
+<script type="text/javascript">
+    var RecaptchaOptions = {
+        theme: "clean"
+    };
+</script>
+
   <script type="text/javascript" src="//www.google.com/recaptcha/api/challenge?k=@Model.PublicKey"></script>
   <noscript>
      <iframe src="//www.google.com/recaptcha/api/noscript?k=@Model.PublicKey" height="300" width="500" frameborder="0"></iframe><br>

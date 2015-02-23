@@ -1,0 +1,736 @@
+2015-02-18 09:13:54,560 [27] Orchard.FileSystems.AppData.AppDataFolder - Default - Could not delete recipe execution folder D:\websites\trin63379\www\App_Data\RecipeQueue\9c2c5ae0a6c14c0a9c71c582a5cff861 under "App_Data" folder
+2015-02-18 09:13:55,825 [22] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:13:55,872 [22] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 09:14:01,169 [25] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:14:01,310 [25] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:14:01,310 [25] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:14:01,310 [25] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:14:01,326 [25] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:14:01,326 [25] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:14:01,326 [25] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:14:01,341 [25] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:14:01,341 [25] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,232 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,232 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,248 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,248 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,248 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,248 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,263 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,263 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,263 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,279 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,279 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,279 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,279 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,310 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,310 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,310 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,326 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,326 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,326 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,326 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,342 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,342 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,342 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,342 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,357 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,357 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,357 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,373 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,373 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,373 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,388 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,388 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,404 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:49,404 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:50,592 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:50,592 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:50,592 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:29:50,592 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 09:48:22,998 [19] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 10:08:03,030 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 10:08:03,062 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 10:27:19,437 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 10:27:19,453 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 10:45:31,141 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 10:45:31,156 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 11:14:23,142 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 11:14:23,157 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 12:18:15,378 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 12:18:15,378 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 12:51:57,270 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 12:51:57,285 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 13:05:30,254 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 13:05:30,254 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 13:17:05,427 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 13:17:05,442 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 13:32:53,787 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 13:32:53,802 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 13:44:04,006 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 13:44:04,006 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 15:47:59,556 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 15:47:59,572 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 16:15:39,667 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 16:15:39,682 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 16:34:55,089 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 16:34:55,089 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 16:52:07,933 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 16:52:07,933 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 17:04:26,871 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 17:04:26,871 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 17:18:18,450 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 17:18:18,465 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 17:33:45,341 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 17:33:45,356 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 17:56:12,685 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 17:56:12,685 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 18:19:28,999 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 18:19:28,999 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 18:59:25,047 [8] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.AntiSpam/Orchard.AntiSpam.csproj.
+System.Web.HttpCompileException (0x80004005): d:\websites\trin63379\www\Modules\Orchard.AntiSpam\Controllers\AdminController.cs(130): error CS1061: 'Orchard.ContentManagement.IContentManager' does not contain a definition for 'Flush' and no extension method 'Flush' accepting a first argument of type 'Orchard.ContentManagement.IContentManager' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-02-18 18:59:25,062 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.AntiSpam"
+2015-02-18 19:00:26,515 [10] NHibernate.Transaction.AdoTransaction - (null) - Begin transaction failed
+System.Data.SqlServerCe.SqlCeException (0x80004005): There is a file sharing violation. A different process might be using the file. [ D:\websites\trin63379\www\App_Data\Sites\Default\Orchard.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Connection\DriverConnectionProvider.cs:line 46
+   at NHibernate.AdoNet.ConnectionManager.GetConnection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\AdoNet\ConnectionManager.cs:line 196
+   at NHibernate.Impl.SessionImpl.get_Connection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Impl\SessionImpl.cs:line 1634
+   at NHibernate.Transaction.AdoTransaction.Begin(IsolationLevel isolationLevel) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Transaction\AdoTransaction.cs:line 137
+2015-02-18 19:00:26,781 [10] Orchard.Tasks.BackgroundService - (null) - Error while processing background task
+NHibernate.TransactionException: Begin failed with SQL exception ---> System.Data.SqlServerCe.SqlCeException: There is a file sharing violation. A different process might be using the file. [ D:\websites\trin63379\www\App_Data\Sites\Default\Orchard.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Connection\DriverConnectionProvider.cs:line 46
+   at NHibernate.AdoNet.ConnectionManager.GetConnection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\AdoNet\ConnectionManager.cs:line 196
+   at NHibernate.Impl.SessionImpl.get_Connection() in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Impl\SessionImpl.cs:line 1634
+   at NHibernate.Transaction.AdoTransaction.Begin(IsolationLevel isolationLevel) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Transaction\AdoTransaction.cs:line 137
+   --- End of inner exception stack trace ---
+   at NHibernate.Transaction.AdoTransaction.Begin(IsolationLevel isolationLevel) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Transaction\AdoTransaction.cs:line 148
+   at NHibernate.Impl.SessionImpl.BeginTransaction(IsolationLevel isolationLevel) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Impl\SessionImpl.cs:line 1451
+   at Orchard.Data.SessionLocator.RequireNew(IsolationLevel level) in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Data\SessionLocator.cs:line 73
+   at Orchard.Data.SessionLocator.RequireNew() in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Data\SessionLocator.cs:line 51
+   at Orchard.Tasks.BackgroundService.Sweep() in f:\Orchard\tringallotments.org.uk.v1.8.1\src\Orchard\Tasks\BackgroundService.cs:line 29
